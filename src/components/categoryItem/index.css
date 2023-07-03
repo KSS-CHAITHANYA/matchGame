@@ -1,0 +1,19 @@
+li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.category-item.active {
+  text-decoration: underline;
+  color: yellow;
+}
